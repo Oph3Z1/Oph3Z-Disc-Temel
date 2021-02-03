@@ -1,0 +1,347 @@
+[32m[mysql-async][0m Database server connection established.
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [23ms] DELETE FROM disc_inventory WHERE type = 'drop'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [30ms] SELECT * FROM items
+[MariaDB:10.4.17-MariaDB] [es_extended] [25ms] SELECT * FROM jobs
+[MariaDB:10.4.17-MariaDB] [es_extended] [30ms] SELECT * FROM items
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [27ms] SELECT * FROM addon_account
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [26ms] SELECT * FROM datastore
+[MariaDB:10.4.17-MariaDB] [esx_society] [26ms] SELECT * FROM jobs
+[MariaDB:10.4.17-MariaDB] [esx_vehicleshop] [25ms] SELECT * FROM vehicle_categories
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [19ms] SELECT * FROM disc_inventory_itemdata
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [20ms] SELECT * FROM items WHERE LCASE(name) LIKE '%weapon_%'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [2ms] SELECT * FROM addon_account_data WHERE account_name = 'bank_savings'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'property'
+[MariaDB:10.4.17-MariaDB] [esx_society] [2ms] SELECT * FROM job_grades
+[MariaDB:10.4.17-MariaDB] [esx_vehicleshop] [4ms] SELECT * FROM vehicles
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [9ms] SELECT * FROM addon_inventory
+[MariaDB:10.4.17-MariaDB] [es_extended] [10ms] SELECT * FROM job_grades
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [4ms] SELECT * FROM addon_account_data WHERE account_name = 'caution'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [4ms] SELECT * FROM datastore_data WHERE name = 'society_ambulance'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'property_black_money'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'society_police'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [2ms] SELECT * FROM addon_inventory_items WHERE inventory_name = 'property'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'society_ambulance'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'society_taxi'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'society_banker'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'user_ears'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [2ms] SELECT * FROM addon_inventory_items WHERE inventory_name = 'society_ambulance'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'society_cardealer'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'user_glasses'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'society_mechanic'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'user_helmet'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [1ms] SELECT * FROM addon_inventory_items WHERE inventory_name = 'society_cardealer'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'society_police'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [1ms] SELECT * FROM datastore_data WHERE name = 'user_mask'
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [1ms] SELECT * FROM addon_account_data WHERE account_name = 'society_taxi'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [1ms] SELECT * FROM addon_inventory_items WHERE inventory_name = 'society_mechanic'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [1ms] SELECT * FROM addon_inventory_items WHERE inventory_name = 'society_police'
+[MariaDB:10.4.17-MariaDB] [esx_addoninventory] [1ms] SELECT * FROM addon_inventory_items WHERE inventory_name = 'society_taxi'
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [1ms] SELECT * FROM disc_inventory WHERE type = 'drop'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [2ms] SELECT `charid` FROM `user_lastcharacter` WHERE `steamid` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] INSERT INTO `user_lastcharacter` (`steamid`, `charid`) VALUES('steam:11000014112908c', 1)
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `billing` SET `identifier` = 'Char1:11000014112908c' WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `characters` SET `identifier` = 'Char1:11000014112908c' WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `society_moneywash` SET `identifier` = 'Char1:11000014112908c' WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `users` SET `identifier` = 'Char1:11000014112908c' WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `user_accounts` SET `identifier` = 'Char1:11000014112908c' WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `user_inventory` SET `identifier` = 'Char1:11000014112908c' WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `addon_account_data` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `addon_inventory_items` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `owned_properties` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `owned_vehicles` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `rented_vehicles` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `user_licenses` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `datastore_data` SET `owner` = 'Char1:11000014112908c' WHERE `owner` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] SELECT * FROM `users` WHERE identifier LIKE '%:11000014112908c%'
+[MariaDB:10.4.17-MariaDB] [esx_ambulancejob] [2ms] SELECT is_dead FROM users WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [2ms] UPDATE `user_lastcharacter` SET `charid` = '1' WHERE `steamid` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `billing` SET `identifier` = 'steam:11000014112908c' WHERE `identifier` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `characters` SET `identifier` = 'steam:11000014112908c' WHERE `identifier` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `society_moneywash` SET `identifier` = 'steam:11000014112908c' WHERE `identifier` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `users` SET `identifier` = 'steam:11000014112908c' WHERE `identifier` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `user_accounts` SET `identifier` = 'steam:11000014112908c' WHERE `identifier` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `user_inventory` SET `identifier` = 'steam:11000014112908c' WHERE `identifier` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `addon_account_data` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `addon_inventory_items` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `owned_properties` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `owned_vehicles` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `rented_vehicles` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `user_licenses` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_kashacters] [1ms] UPDATE `datastore_data` SET `owner` = 'steam:11000014112908c' WHERE `owner` = 'Char1:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] SELECT 1 FROM users WHERE `identifier`='steam:11000014112908c';
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [2ms] INSERT INTO users (`identifier`, `money`, `bank`, `group`, `permission_level`, `license`) VALUES ('steam:11000014112908c', 0, 0, 'user', 0, 'license:8e35e0abdc5cb403f025aa7e148a4ab36c5965de');
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] SELECT * FROM users WHERE `identifier`='steam:11000014112908c';
+[MariaDB:10.4.17-MariaDB] [esx_identity] [3ms] SELECT * FROM `users` WHERE `identifier` = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] SELECT item, count FROM user_inventory WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] SELECT job, job_grade, loadout, position FROM users WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] SELECT name, money FROM user_accounts WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] UPDATE users SET name = 'ツ' WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_GUSENBERG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] SELECT name FROM user_accounts WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tacoeti', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [6ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SNIPERRIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [6ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'temizlikbezi', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [6ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_COMPACTLAUNCHER', 0)
+[MariaDB:10.4.17-MariaDB] [esx_status] [25ms] SELECT status FROM users WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [17ms] DELETE FROM disc_inventory WHERE owner = 'steam:11000014112908c' AND type = 'player'
+[MariaDB:10.4.17-MariaDB] [es_extended] [30ms] INSERT INTO user_accounts (identifier, name) VALUES ('steam:11000014112908c', 'black_money')
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [8ms] INSERT INTO datastore_data (name, owner, data) VALUES ('property', 'steam:11000014112908c', '{}')
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [11ms] INSERT INTO addon_account_data (account_name, money, owner) VALUES ('bank_savings', 0, 'steam:11000014112908c')
+[MariaDB:10.4.17-MariaDB] [esx_license] [4ms] SELECT * FROM user_licenses WHERE owner = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [8ms] INSERT INTO datastore_data (name, owner, data) VALUES ('user_mask', 'steam:11000014112908c', '{}')
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [12ms] INSERT INTO addon_account_data (account_name, money, owner) VALUES ('caution', 0, 'steam:11000014112908c')
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [9ms] INSERT INTO datastore_data (name, owner, data) VALUES ('user_ears', 'steam:11000014112908c', '{}')
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [9ms] INSERT INTO datastore_data (name, owner, data) VALUES ('user_glasses', 'steam:11000014112908c', '{}')
+[MariaDB:10.4.17-MariaDB] [esx_addonaccount] [12ms] INSERT INTO addon_account_data (account_name, money, owner) VALUES ('property_black_money', 0, 'steam:11000014112908c')
+[MariaDB:10.4.17-MariaDB] [esx_datastore] [9ms] INSERT INTO datastore_data (name, owner, data) VALUES ('user_helmet', 'steam:11000014112908c', '{}')
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [3ms] SELECT * FROM disc_inventory WHERE type = 'drop'
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'clothe', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_RPG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SMOKEGRENADE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'drpaketlenmiskokain', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'pAmmo', 0)
+[MariaDB:10.4.17-MariaDB] [esx_lscustom] [4ms] SELECT * FROM vehicles
+[MariaDB:10.4.17-MariaDB] [esx_skin] [10ms] SELECT skin FROM users WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [8ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SNOWBALL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [8ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'cripsbandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [8ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'telefontamirtornavida', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [8ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'coffee', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [9ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'gazbottle', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'joint', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'cigarett', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_STICKYBOMB', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MINIGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'petrol', 0)
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [3ms] SELECT data FROM disc_inventory WHERE owner = 'steam:11000014112908c' and type = 'player'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HEAVYSNIPER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'whisky', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'wood', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'lockpick', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MARKSMANPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'hackerphone', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'zaritem', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MOLOTOV', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'pizza', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tacopaketi', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_snp', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SWITCHBLADE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'cupcake', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'packaged_chicken', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tablet', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'sarap', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'weed_pooch', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_STINGER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'cutted_wood', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'jewels', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SNSPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_NIGHTSTICK', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bodycam', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'opium_pooch', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'radio', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'coke', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'wallet', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'petrol_raffin', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_DIGISCANNER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'washed_stone', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'vagosbandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'icetea', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'safecart', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'usbbellek', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'sinyalbozucu', 0)
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [3ms] SELECT data FROM disc_inventory WHERE owner = 'steam:11000014112908c' and type = 'player'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'gold', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'sportlunch', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'thermal_charge', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'turtlebait', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SAWNOFFSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'sandwich', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tequila', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_GARBAGEBAG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tavukburger', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tacos', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tacomalzemesi', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_AUTOSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_GRENADE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'carokit', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HEAVYSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fixkit', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SPECIALCARBINE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'stone', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'taco', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tacoekmegi', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'sprite', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_COMBATMG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'melon', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'soda', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'turtle', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'antidepresan', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'kelepceanahtar', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'vodka', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'uckatliburger', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'id_card', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MACHETE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'shark', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'white_phone', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'secure_card', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'sifrecozmekey_f', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BALL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_pistol', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fanta', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'MedArmor', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'gym_membership', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MINISMG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_shotgun', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'phone', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'slaughtered_chicken', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'powerade', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'alive_chicken', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HOMINGLAUNCHER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'whitebandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'packaged_plank', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'greenbandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BAT', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MUSKET', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'lighter', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [5ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'water', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [5ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'opium', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'milk', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'medkit', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'meth', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'meth_pooch', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [4ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'mgAmmo', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'mdt', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BULLPUPSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'carotool', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'licenseplate', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'arAmmo', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_PISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bag', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'kiriktelefon', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_rifle', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_APPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'keycard', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_KNIFE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_PISTOL50', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_WRENCH', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'skateboard', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_PETROLCAN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'weed', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'kelepce', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BZGAS', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'iron', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'burger', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'cocacola', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_SMG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_snp_large', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'id_card_f', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'medikit', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'orangebandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fixtool', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_ASSAULTSMG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'radiobreaker', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_COMBATPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'tyre', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'gold_bar', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'green_phone', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fabric', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'galerianahtar', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'wool', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'blackbandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'cash', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_KNUCKLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'SmallArmor', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HEAVYPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'HeavyArmor', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_ADVANCEDRIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_DAGGER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fishbait', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HANDCUFFS', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_CROWBAR', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'protein_shake', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MACHINEPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fish', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'energy', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_POOLCUE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'essence', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'drkokain', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'drkenevir', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'ballasbandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_DOUBLEACTION', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BULLPUPRIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bandage', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'drill', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_DBSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_pistol_large', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'dondurma', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'donut', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'hackerlaptop', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'hackertablet', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'blowpipe', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_shotgun_large', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_smg', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_REVOLVER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HATCHET', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_ASSAULTRIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_rifle_large', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fishingrod', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'kuyumcukart', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_PIPEBOMB', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_RAILGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_CARBINERIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_FLARE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'kizartmalipatates', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'diamond', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'agrikesici', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_VINTAGEPISTOL', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_ASSAULTSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_COMPACTRIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_HAMMER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_GRENADELAUNCHER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'dia_box', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'choped_sarap', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'wine', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'coke_pooch', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'copper', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BOTTLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_GOLFCLUB', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_FLAREGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bolchips', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MICROSMG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_PROXMINE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_FLASHLIGHT', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_BATTLEAXE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'choped_melon', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MARKSMANRIFLE', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'laptop_h', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'chocolate', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'champagne', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bread', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_STUNGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'rum', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'ied', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_FIREWORK', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bloodsbandana', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_PUMPSHOTGUN', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_FIREEXTINGUISHER', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'bodycamsivil', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'disc_ammo_smg_large', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'aracgalerikart', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'beer', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_MG', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'blackmoney', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'fleecakart', 0)
+[MariaDB:10.4.17-MariaDB] [es_extended] [3ms] INSERT INTO user_inventory (identifier, item, count) VALUES ('steam:11000014112908c', 'WEAPON_COMBATPDW', 0)
+[MariaDB:10.4.17-MariaDB] [esx_identity] [3ms] INSERT INTO characters (identifier, firstname, lastname, dateofbirth, sex, height) VALUES ('steam:11000014112908c', 'Oph3Z', 'Test', '01/01/2021', 'm', '185')
+[MariaDB:10.4.17-MariaDB] [esx_identity] [4ms] UPDATE `users` SET `firstname` = 'Oph3Z', `lastname` = 'Test', `dateofbirth` = '01/01/2021', `sex` = 'm', `height` = '185' WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] UPDATE users SET `money`=0, `bank`=0 WHERE `identifier`='steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_skin] [3ms] UPDATE users SET skin = '{\"eyebrows_2\":0,\"ears_1\":-1,\"blush_2\":0,\"age_1\":0,\"lipstick_3\":0,\"decals_2\":0,\"eyebrows_3\":0,\"watches_1\":-1,\"torso_1\":0,\"eyebrows_1\":0,\"moles_1\":0,\"blemishes_1\":0,\"bproof_1\":0,\"beard_4\":0,\"chest_3\":0,\"face\":0,\"complexion_1\":0,\"helmet_1\":-1,\"blush_3\":0,\"sun_2\":0,\"lipstick_1\":0,\"arms\":0,\"bracelets_1\":-1,\"ears_2\":0,\"chain_2\":0,\"beard_1\":0,\"hair_1\":0,\"bags_2\":0,\"bracelets_2\":0,\"torso_2\":0,\"blemishes_2\":0,\"age_2\":0,\"moles_2\":0,\"bproof_2\":0,\"chest_2\":0,\"hair_color_1\":0,\"hair_2\":0,\"beard_3\":0,\"chain_1\":0,\"eye_color\":0,\"decals_1\":0,\"blush_1\":0,\"helmet_2\":0,\"sex\":0,\"arms_2\":0,\"pants_2\":0,\"tshirt_1\":0,\"bags_1\":0,\"glasses_1\":0,\"eyebrows_4\":0,\"mask_1\":0,\"makeup_4\":0,\"lipstick_4\":0,\"hair_color_2\":0,\"chest_1\":0,\"complexion_2\":0,\"glasses_2\":0,\"bodyb_2\":0,\"makeup_3\":0,\"shoes_2\":0,\"skin\":0,\"sun_1\":0,\"tshirt_2\":0,\"pants_1\":0,\"bodyb_1\":0,\"makeup_1\":0,\"beard_2\":0,\"lipstick_2\":0,\"watches_2\":0,\"shoes_1\":0,\"mask_2\":0,\"makeup_2\":0}' WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [2ms] SELECT data FROM disc_inventory WHERE owner = 'x198y-934z30' and type = 'drop'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] UPDATE users SET `money`=0, `bank`=0 WHERE `identifier`='steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] UPDATE users SET `money`=0, `bank`=0 WHERE `identifier`='steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] UPDATE users SET `money`=0, `bank`=0 WHERE `identifier`='steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [1ms] DELETE FROM disc_inventory WHERE owner = 'steam:11000014112908c' AND type = 'player'
+[MariaDB:10.4.17-MariaDB] [disc-inventoryhud] [1ms] DELETE FROM disc_inventory WHERE owner = 'x198y-934z30' AND type = 'drop'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [1ms] UPDATE users SET `money`=0, `bank`=0 WHERE `identifier`='steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esx_status] [12ms] UPDATE users SET status = '[{\"val\":968000,\"percent\":96.8,\"name\":\"hunger\"},{\"val\":976000,\"percent\":97.6,\"name\":\"thirst\"},{\"val\":160.0,\"percent\":0.016,\"name\":\"stress\"},{\"val\":0,\"percent\":0.0,\"name\":\"drunk\"}]' WHERE identifier = 'steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [esplugin_mysql] [2ms] UPDATE users SET `money`=0, `bank`=0 WHERE `identifier`='steam:11000014112908c'
+[MariaDB:10.4.17-MariaDB] [es_extended] [2ms] UPDATE users SET job = 'unemployed', job_grade = 0, loadout = '[]', position = '{\"y\":-861.4,\"z\":30.6,\"x\":142.6}' WHERE identifier = 'steam:11000014112908c'
